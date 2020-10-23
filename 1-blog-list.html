@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width">
+  <title>Blog</title>
+
+  <link href="css/blog.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="nav-wrapper d-none d-lg-block d-xl-block">
+    <nav class="navbar navbar-top navbar-expand-lg navbar-light bg-white">
+      <div class="row">
+        <div class="col-2">
+          <a class="navbar-brand" href="#">Blog</a>
+        </div>
+
+        <div class="col-sm-8 col-md-8 col-lg-10 col-xl-6 offset-xl-4">
+          <div class="row">
+            <form class="form-inline col-7 form-search">
+              <input class="form-control col-10" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn col-2" type="submit">
+                <i class="fa fa-search"></i>
+              </button>
+            </form>
+
+            <ul class="navbar-nav col-5">
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa fa-heart-o"></i> Favourites</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa fa-shopping-cart"></i> Cart</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <nav class="navbar navbar-bottom navbar-expand-lg navbar-light bg-white">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <div class="nav-wrapper d-block d-lg-none d-xl-none">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <a class="navbar-brand" href="#">Blog</a>
+      <button class="navbar-toggler p-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline col-8 p-0 form-search">
+          <input class="form-control col-10" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn col-2" type="submit">
+            <i class="fa fa-search"></i>
+          </button>
+        </form>
+      </div>
+    </nav>
+  </div>
+
+  <main class="blog-1">
+    <div class="carousel carousel-index slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="lazy-wrapper" data-src="img/food.jpg">
+            <img alt="First slide">
+          </div>
+          <div class="carousel-caption">
+            <h1 class="caption__title">Check out my newest vegan recipes</h1>
+            <p class="caption__description">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqut enim ad mi</p>
+            <div class="row user">
+              <div class="col-12 p-0">
+                <img src="img/user.jpg" alt="" class="caption__avatar">
+                <div class="caption__text">
+                  <p class="caption__username">Erica James</p>
+                  <p class="caption__date">Oct 16, 2020</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="lazy-wrapper" data-src="img/food2.jpg">
+            <img alt="First slide">
+          </div>
+          <div class="carousel-caption">
+            <h1 class="caption__title">Easy delicious breakfast recipe</h1>
+            <p class="caption__description">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqut enim ad mi</p>
+            <div class="row user">
+              <div class="col-12 p-0">
+                <img src="img/user.jpg" alt="" class="caption__avatar">
+                <div class="caption__text">
+                  <p class="caption__username">Erica James</p>
+                  <p class="caption__date">Oct 16, 2020</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="recipes_per_three">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1">
+          <div class="row">
+            <div class="col-lg-4 px-4">
+              <div class="card recipe">
+                <a href="#" class="recipe__image-wrapper">
+                  <div class="lazy-wrapper" data-src="img/food5.jpg">
+                    <img alt="food-1">
+                  </div>
+                </a>
+
+                <div class="card-body p-0">
+                  <ul class="p-0 recipe__details">
+                    <li><i class="fa fa-clock-o"></i>30 minutes</li>
+                    <li><i class="fa fa-thumbs-o-up"></i>easy</li>
+                  </ul>
+                  <div class="recipe__title-wrapper">
+                    <a href="#" class="card-title"><h5>40 Mother’s Day Breakfast and Brunch Recipes</h5></a>
+                  </div>
+                  <p class="card-text recipe__description">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim veniamquis.</p>
+
+                  <div class="row recipe__author">
+                    <div class="col-6 p-0">
+                      <img src="img/user.jpg" alt="" class="recipe__author__avatar">
+                      <div class="recipe__author__text">
+                        <a href="#" class="recipe__author__username">Erica James</a>
+                        <p class="recipe__author__date">Oct 16, 2020</p>
+                      </div>
+                    </div>
+
+                    <div class="col-6 p-0">
+                      <div class="recipe__buttons">
+                        <div class="row">
+                          <div class="dropdown show button">
+                            <a class="btn btn-share" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+                              aria-haspopup="true" aria-expanded="false">
+                              <i class="fa fa-share-alt"></i>
+                            </a>
+
+                            <div class="dropdown-menu dropdown-share" aria-labelledby="dropdownMenuLink">
+                              <a class="dropdown-item dropdown-item__facebook" href="#"><i
+                                  class="fa fa-facebook"></i></a>
+                              <a class="dropdown-item dropdown-item__instagram" href="#"><i
+                                  class="fa fa-instagram"></i></a>
+                              <a class="dropdown-item dropdown-item__twitter" href="#"><i class="fa fa-twitter"></i></a>
+                            </div>
+                          </div>
+
+                          <a href="#" class="btn btn-share button"><i class="fa fa-bookmark-o"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 px-4">
+              <div class="card recipe">
+                <a href="#" class="recipe__image-wrapper">
+                  <div class="lazy-wrapper" data-src="img/food6.jpg">
+                    <img alt="food-2">
+                  </div>
+                </a>
+
+                <div class="card-body p-0">
+                  <ul class="p-0 recipe__details">
+                    <li><i class="fa fa-clock-o"></i>30 minutes</li>
+                    <li><i class="fa fa-thumbs-o-up"></i>easy</li>
+                  </ul>
+                  <div class="recipe__title-wrapper">
+                    <a href="#" class="card-title"><h5>Slow cooker mixed fruits oatmeal pot</h5></a>
+                  </div>
+                  <p class="card-text recipe__description">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim veniamquis.</p>
+
+                  <div class="row recipe__author">
+                    <div class="col-6 p-0">
+                      <img src="img/user.jpg" alt="" class="recipe__author__avatar">
+                      <div class="recipe__author__text">
+                        <a href="#" class="recipe__author__username">Erica James</a>
+                        <p class="recipe__author__date">Oct 16, 2020</p>
+                      </div>
+                    </div>
+
+                    <div class="col-6 p-0">
+                      <div class="recipe__buttons">
+                        <div class="row">
+                          <div class="dropdown show button">
+                            <a class="btn btn-share" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+                              aria-haspopup="true" aria-expanded="false">
+                              <i class="fa fa-share-alt"></i>
+                            </a>
+
+                            <div class="dropdown-menu dropdown-share" aria-labelledby="dropdownMenuLink">
+                              <a class="dropdown-item dropdown-item__facebook" href="#"><i
+                                  class="fa fa-facebook"></i></a>
+                              <a class="dropdown-item dropdown-item__instagram" href="#"><i
+                                  class="fa fa-instagram"></i></a>
+                              <a class="dropdown-item dropdown-item__twitter" href="#"><i class="fa fa-twitter"></i></a>
+                            </div>
+                          </div>
+
+                          <a href="#" class="btn btn-share button"><i class="fa fa-bookmark-o"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 px-4">
+              <div class="card recipe">
+                <a href="#" class="recipe__image-wrapper">
+                  <div class="lazy-wrapper" data-src="img/food7.jpg">
+                    <img alt="food-3">
+                  </div>
+                </a>
+
+                <div class="card-body p-0">
+                  <ul class="p-0 recipe__details">
+                    <li><i class="fa fa-clock-o"></i>30 minutes</li>
+                    <li><i class="fa fa-thumbs-o-up"></i>easy</li>
+                  </ul>
+                  <div class="recipe__title-wrapper">
+                    <a href="#" class="card-title"><h5>Fudge waffles with ice cream and chocolate sauce</h5></a>
+                  </div>
+                  <p class="card-text recipe__description">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim veniamquis.</p>
+
+                  <div class="row recipe__author">
+                    <div class="col-6 p-0">
+                      <img src="img/user.jpg" alt="" class="recipe__author__avatar">
+                      <div class="recipe__author__text">
+                        <a href="#" class="recipe__author__username">Erica James</a>
+                        <p class="recipe__author__date">Oct 16, 2020</p>
+                      </div>
+                    </div>
+
+                    <div class="col-6 p-0">
+                      <div class="recipe__buttons">
+                        <div class="row">
+                          <div class="dropdown show button">
+                            <a class="btn btn-share" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+                              aria-haspopup="true" aria-expanded="false">
+                              <i class="fa fa-share-alt"></i>
+                            </a>
+
+                            <div class="dropdown-menu dropdown-share" aria-labelledby="dropdownMenuLink">
+                              <a class="dropdown-item dropdown-item__facebook" href="#"><i
+                                  class="fa fa-facebook"></i></a>
+                              <a class="dropdown-item dropdown-item__instagram" href="#"><i
+                                  class="fa fa-instagram"></i></a>
+                              <a class="dropdown-item dropdown-item__twitter" href="#"><i class="fa fa-twitter"></i></a>
+                            </div>
+                          </div>
+
+                          <a href="#" class="btn btn-share button"><i class="fa fa-bookmark-o"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="books">
+      <div id="carouselExampleSlidesOnly" class="carousel" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="lazy-wrapper" data-src="img/food8.png">
+              <img alt="food">
+            </div>
+          </div>
+          <div class="carousel-caption">
+            <h1 class="caption__title">Check out the <span>latest</span> recipes books</h1>
+            <p class="caption__description">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqut.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Bootstrap core JavaScript-->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="js/blog_1.min.js"></script>
+</body>
+
+</html>
