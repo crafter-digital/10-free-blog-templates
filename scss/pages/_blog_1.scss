@@ -10,6 +10,14 @@
   section.recipes_per_three {
     margin: 100px 0;
 
+    .recipe {
+      &__title {
+        h5 {
+          height: 50px;
+        }
+      }
+    }
+
     .card {
       border: none;
       border-radius: 0;

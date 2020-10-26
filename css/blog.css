@@ -12839,6 +12839,11 @@ a {
 .recipe__description {
   color: #6b6768;
   font-size: 16px;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .recipe__details {
@@ -13404,6 +13409,10 @@ nav.navbar .navbar-nav .dropdown-menu.show .dropdown-item:hover {
 
 .blog-1 section.recipes_per_three {
   margin: 100px 0;
+}
+
+.blog-1 section.recipes_per_three .recipe__title h5 {
+  height: 50px;
 }
 
 .blog-1 section.recipes_per_three .card {
