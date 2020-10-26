@@ -14,3 +14,8 @@
 
 The page will reload if you make edits.
 You will also see any lint errors in the console.
+
+### Blog Template 1
+
+![alt text](https://github.com/crafter-digital/10-free-blog-templates/blob/master/img/blog1_mobile.png)
+![alt text](https://github.com/crafter-digital/10-free-blog-templates/blob/master/img/blog1_desktop.png)
