@@ -1,4 +1,4 @@
-@import "variables";
+@import "blog_1/variables";
 
 // Import Bootstrap
 @import "../vendor/bootstrap/scss/bootstrap";
@@ -8,9 +8,9 @@ $fa-font-path: '../vendor/fonts/';
 @import '../vendor/scss/font-awesome.scss';
 
 // Base
-@import "fonts";
-@import "global";
-@import "shared";
+@import "blog_1/fonts";
+@import "blog_1/global";
+@import "blog_1/shared";
 
 // Custom Components
 @import "blog_1/components/buttons";
