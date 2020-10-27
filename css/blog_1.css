@@ -13005,6 +13005,120 @@ a {
   outline: none;
 }
 
+.right {
+  margin-top: 50px;
+}
+
+.right .latest-recipes, .right .profile {
+  border-radius: 3px;
+  border: 1px solid #dddbdb;
+  margin-top: 50px;
+}
+
+.right .latest-recipes h3, .right .profile h3 {
+  background-color: white;
+  color: #2d2d28;
+  font-family: 'Catamaran';
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin: auto;
+  padding: 10px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.right .latest-recipes {
+  padding: 50px 30px 30px;
+}
+
+.right .latest-recipes h3 {
+  margin-top: -68px;
+}
+
+.right .latest-recipes .recipe {
+  margin-bottom: 10px;
+}
+
+.right .latest-recipes .recipe img {
+  height: 90%;
+}
+
+.right .latest-recipes .recipe__title-wrapper p {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  font-size: 16px;
+  margin-bottom: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.right .latest-recipes .recipe__text {
+  margin-top: 10px;
+}
+
+.right .latest-recipes .recipe__date {
+  color: #7b7b7b;
+  font-family: 'Catamaran';
+  font-size: 15px;
+}
+
+.right .profile {
+  padding: 60px 30px;
+}
+
+.right .profile h3 {
+  margin-top: -78px;
+}
+
+.right .profile__avatar {
+  width: 100px;
+  height: 100px;
+}
+
+.right .profile__avatar img {
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.right .profile__name {
+  font-family: Merriweather, serif;
+  font-size: 26px;
+  font-weight: 500;
+  justify-content: center;
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
+
+.right .profile__bio {
+  font-size: 16px;
+}
+
+.uploaded-images {
+  margin-top: 100px;
+}
+
+.uploaded-images .lazy-wrapper {
+  height: 200px;
+}
+
+.uploaded-images .lazy-wrapper img {
+  height: 200px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.uploaded-images a:hover .lazy-wrapper {
+  -webkit-filter: brightness(0.8) !important;
+  filter: brightness(0.8) !important;
+  transition: 0.25s ease-out;
+}
+
 @media (max-width: 922px) {
   .recipe__text {
     padding-left: 0 !important;
@@ -13461,6 +13575,250 @@ nav.navbar .navbar-nav .dropdown-menu.show .dropdown-item:hover {
   }
 }
 
+.custom-pagination {
+  border-radius: 0 !important;
+}
+
+.custom-pagination .page-item {
+  border-radius: 50%;
+  padding: 0 8px;
+}
+
+.custom-pagination .page-link {
+  border-radius: 50%;
+  border: 0;
+  height: 35px;
+  text-align: center;
+  width: 35px;
+}
+
+.custom-pagination .page-item.active .page-link {
+  background-color: #fbdd33;
+  border-radius: 50%;
+  color: black;
+}
+
+.custom-pagination .page-link {
+  border: none;
+  color: black;
+  transition: none;
+}
+
+.custom-pagination .page-link:hover, .custom-pagination .page-link:focus, .custom-pagination .page-link:active {
+  background-color: #fbdd33;
+  border-radius: 50%;
+  box-shadow: none;
+  color: black;
+  outline: none;
+}
+
+.blog-details-1 ul {
+  list-style: none;
+}
+
+.blog-details-1 h1, .blog-details-1 h2, .blog-details-1 h3 {
+  font-family: 'Merriweather';
+}
+
+.blog-details-1 h1 {
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+.blog-details-1 h2.sub-title {
+  display: flex;
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.blog-details-1 h2.sub-title span.text {
+  flex: 0 0 auto;
+}
+
+.blog-details-1 h2.sub-title span.lines {
+  border-bottom: 1px solid #dddbdb;
+  border-top: 1px solid #dddbdb;
+  height: 7px;
+  margin-left: 18px;
+  margin-top: 11px;
+  width: 100%;
+}
+
+.blog-details-1 section.header {
+  margin-top: 50px;
+}
+
+.blog-details-1 section.header .share-links {
+  margin-top: 8px;
+}
+
+.blog-details-1 section.header .share-links ul {
+  text-align: end;
+}
+
+.blog-details-1 section.header .share-links ul li {
+  display: inline;
+  font-size: 14px;
+  margin-left: 3%;
+  padding: 1% 2.5%;
+}
+
+.blog-details-1 section.header .share-links ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.blog-details-1 section.header .share-links ul li i {
+  margin-right: 5px;
+}
+
+.blog-details-1 section.header .share-links ul li:hover {
+  -webkit-filter: brightness(0.9);
+  filter: brightness(0.9);
+}
+
+.blog-details-1 section.header .share-links .facebook {
+  background-color: #3b5998;
+}
+
+.blog-details-1 section.header .share-links .pinterest {
+  background-color: #CB2027;
+}
+
+.blog-details-1 section.header .share-links .twitter {
+  background-color: #00aced;
+}
+
+.blog-details-1 section.content {
+  margin-top: 30px;
+}
+
+.blog-details-1 section.content .media-wrapper video, .blog-details-1 section.content .media-wrapper img {
+  width: 100%;
+}
+
+.blog-details-1 section.content .details {
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.blog-details-1 section.content .details ul {
+  text-align: center;
+}
+
+.blog-details-1 section.content .details ul li {
+  display: inline;
+  font-family: 'Catamaran';
+  font-size: 14px;
+  font-weight: 500;
+  margin: 15px;
+  text-transform: uppercase;
+}
+
+.blog-details-1 section.content .details p.description {
+  color: #5c5c5c;
+  font-size: 18px;
+}
+
+.blog-details-1 section.content .ingredients, .blog-details-1 section.content .directions, .blog-details-1 section.content .notes {
+  margin-bottom: 40px;
+}
+
+.blog-details-1 section.content .ingredients h3 {
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.blog-details-1 section.content .ingredients ul {
+  margin-bottom: 30px;
+}
+
+.blog-details-1 section.content .ingredients li {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: .5px;
+  margin-bottom: 20px;
+}
+
+.blog-details-1 section.content .ingredients li i {
+  color: #dddbdb;
+  margin-right: 10px;
+}
+
+.blog-details-1 section.content .directions span.number {
+  background-color: #fee86d;
+  border-radius: 50%;
+  color: black;
+  font-family: 'Merriweather';
+  font-size: 23px;
+  height: 48px;
+  left: 0;
+  line-height: 48px;
+  margin-top: 0;
+  position: absolute;
+  text-align: center;
+  width: 48px;
+}
+
+.blog-details-1 section.content .directions .direction-inner {
+  padding-left: 52px;
+}
+
+.blog-details-1 section.content .directions .direction {
+  margin-bottom: 50px;
+}
+
+.blog-details-1 section.content .directions .direction__title {
+  font-size: 21px;
+}
+
+.blog-details-1 section.content .directions .direction__media {
+  margin: 20px 0;
+}
+
+.blog-details-1 section.content .directions .direction__media img, .blog-details-1 section.content .directions .direction__media video {
+  height: 350px;
+  margin-bottom: 30px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 100%;
+}
+
+.blog-details-1 section.content p, .blog-details-1 section.notes p {
+  color: #7b7b7b;
+  font-size: 17px;
+  letter-spacing: 0.2px;
+  margin-top: 15px;
+}
+
+.blog-details-1 section.related-recipes {
+  margin-top: 100px;
+}
+
+.blog-details-1 section.related-recipes .lazy-wrapper {
+  height: 300px;
+}
+
+.blog-details-1 section.related-recipes .recipe__title p {
+  font-size: 17px;
+  margin-top: 15px;
+}
+
+.blog-details-1 section.comments {
+  margin-bottom: 100px;
+}
+
+@media (max-width: 992px) {
+  .share-links ul {
+    text-align: left !important;
+  }
+  .share-links ul li {
+    margin-right: 3%;
+    margin-left: 0 !important;
+  }
+}
+
 .blog-list-1 .title {
   font-family: Merriweather, serif;
   font-size: 26px;
@@ -13677,322 +14035,28 @@ nav.navbar .navbar-nav .dropdown-menu.show .dropdown-item:hover {
   }
 }
 
-.blog-details-1 ul {
-  list-style: none;
+.blog-profile-1 .left {
+  margin-top: 100px;
 }
 
-.blog-details-1 h1, .blog-details-1 h2, .blog-details-1 h3 {
-  font-family: 'Merriweather';
-}
-
-.blog-details-1 h1 {
-  font-size: 40px;
-  font-weight: 500;
-  margin-bottom: 25px;
-}
-
-.blog-details-1 h2.sub-title {
-  display: flex;
-  font-size: 22px;
-  margin-bottom: 30px;
-}
-
-.blog-details-1 h2.sub-title span.text {
-  flex: 0 0 auto;
-}
-
-.blog-details-1 h2.sub-title span.lines {
-  border-bottom: 1px solid #dddbdb;
-  border-top: 1px solid #dddbdb;
-  height: 7px;
-  margin-left: 18px;
-  margin-top: 11px;
-  width: 100%;
-}
-
-.blog-details-1 section.header {
-  margin-top: 50px;
-}
-
-.blog-details-1 section.header .share-links {
-  margin-top: 8px;
-}
-
-.blog-details-1 section.header .share-links ul {
-  text-align: end;
-}
-
-.blog-details-1 section.header .share-links ul li {
-  display: inline;
-  font-size: 14px;
-  margin-left: 3%;
-  padding: 1% 2.5%;
-}
-
-.blog-details-1 section.header .share-links ul li a {
-  color: white;
-  text-decoration: none;
-}
-
-.blog-details-1 section.header .share-links ul li i {
-  margin-right: 5px;
-}
-
-.blog-details-1 section.header .share-links ul li:hover {
-  -webkit-filter: brightness(0.9);
-  filter: brightness(0.9);
-}
-
-.blog-details-1 section.header .share-links .facebook {
-  background-color: #3b5998;
-}
-
-.blog-details-1 section.header .share-links .pinterest {
-  background-color: #CB2027;
-}
-
-.blog-details-1 section.header .share-links .twitter {
-  background-color: #00aced;
-}
-
-.blog-details-1 section.content {
-  margin-top: 30px;
-}
-
-.blog-details-1 section.content .media-wrapper video, .blog-details-1 section.content .media-wrapper img {
-  width: 100%;
-}
-
-.blog-details-1 section.content .details {
-  margin-bottom: 30px;
-  margin-top: 10px;
-}
-
-.blog-details-1 section.content .details ul {
-  text-align: center;
-}
-
-.blog-details-1 section.content .details ul li {
-  display: inline;
-  font-family: 'Catamaran';
-  font-size: 14px;
-  font-weight: 500;
-  margin: 15px;
-  text-transform: uppercase;
-}
-
-.blog-details-1 section.content .details p.description {
-  color: #5c5c5c;
-  font-size: 18px;
-}
-
-.blog-details-1 section.content .ingredients, .blog-details-1 section.content .directions, .blog-details-1 section.content .notes {
-  margin-bottom: 40px;
-}
-
-.blog-details-1 section.content .ingredients h3 {
-  font-size: 16px;
-  margin-bottom: 25px;
-}
-
-.blog-details-1 section.content .ingredients ul {
-  margin-bottom: 30px;
-}
-
-.blog-details-1 section.content .ingredients li {
-  font-size: 16px;
-  font-weight: 400;
-  letter-spacing: .5px;
-  margin-bottom: 20px;
-}
-
-.blog-details-1 section.content .ingredients li i {
-  color: #dddbdb;
-  margin-right: 10px;
-}
-
-.blog-details-1 section.content .directions span.number {
-  background-color: #fee86d;
-  border-radius: 50%;
-  color: black;
-  font-family: 'Merriweather';
-  font-size: 23px;
-  height: 48px;
-  left: 0;
-  line-height: 48px;
-  margin-top: 0;
-  position: absolute;
-  text-align: center;
-  width: 48px;
-}
-
-.blog-details-1 section.content .directions .direction-inner {
-  padding-left: 52px;
-}
-
-.blog-details-1 section.content .directions .direction {
+.blog-profile-1 .recipes .card {
+  border: none;
   margin-bottom: 50px;
 }
 
-.blog-details-1 section.content .directions .direction__title {
-  font-size: 21px;
-}
-
-.blog-details-1 section.content .directions .direction__media {
-  margin: 20px 0;
-}
-
-.blog-details-1 section.content .directions .direction__media img, .blog-details-1 section.content .directions .direction__media video {
-  height: 350px;
-  margin-bottom: 30px;
-  -o-object-fit: cover;
-  object-fit: cover;
-  width: 100%;
-}
-
-.blog-details-1 section.content p, .blog-details-1 section.notes p {
-  color: #7b7b7b;
-  font-size: 17px;
-  letter-spacing: 0.2px;
-  margin-top: 15px;
-}
-
-.blog-details-1 section.related-recipes {
-  margin-top: 100px;
-}
-
-.blog-details-1 section.related-recipes .lazy-wrapper {
-  height: 300px;
-}
-
-.blog-details-1 section.related-recipes .recipe__title p {
-  font-size: 17px;
-  margin-top: 15px;
-}
-
-.blog-details-1 section.comments {
-  margin-bottom: 100px;
-}
-
-.blog-details-1 .right {
-  margin-top: 50px;
-}
-
-.blog-details-1 .right .latest-recipes, .blog-details-1 .right .profile {
-  border-radius: 3px;
-  border: 1px solid #dddbdb;
-  margin-top: 50px;
-}
-
-.blog-details-1 .right .latest-recipes h3, .blog-details-1 .right .profile h3 {
-  background-color: white;
-  color: #2d2d28;
-  font-family: 'Catamaran';
-  font-size: 14px;
-  letter-spacing: 2px;
-  margin: auto;
-  padding: 10px 20px;
-  text-align: center;
-  text-transform: uppercase;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-}
-
-.blog-details-1 .right .latest-recipes {
-  padding: 50px 30px 30px;
-}
-
-.blog-details-1 .right .latest-recipes h3 {
-  margin-top: -68px;
-}
-
-.blog-details-1 .right .latest-recipes .recipe {
-  margin-bottom: 10px;
-}
-
-.blog-details-1 .right .latest-recipes .recipe img {
-  height: 90%;
-}
-
-.blog-details-1 .right .latest-recipes .recipe__title-wrapper p {
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
-  display: -webkit-box;
-  font-size: 16px;
-  margin-bottom: 5px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.blog-details-1 .right .latest-recipes .recipe__text {
-  margin-top: 10px;
-}
-
-.blog-details-1 .right .latest-recipes .recipe__date {
-  color: #7b7b7b;
-  font-family: 'Catamaran';
-  font-size: 15px;
-}
-
-.blog-details-1 .right .profile {
-  padding: 60px 30px;
-}
-
-.blog-details-1 .right .profile h3 {
-  margin-top: -78px;
-}
-
-.blog-details-1 .right .profile__avatar {
-  width: 100px;
-  height: 100px;
-}
-
-.blog-details-1 .right .profile__avatar img {
-  height: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
-  border-radius: 50%;
-}
-
-.blog-details-1 .right .profile__name {
-  font-size: 26px;
-  font-weight: 500;
-  justify-content: center;
-  margin-bottom: 25px;
+.blog-profile-1 .recipes .recipe__details {
   margin-top: 20px;
 }
 
-.blog-details-1 .right .profile__bio {
-  font-size: 16px;
-}
-
-.blog-details-1 .uploaded-images {
-  margin-top: 100px;
-}
-
-.blog-details-1 .uploaded-images .lazy-wrapper {
-  height: 200px;
-}
-
-.blog-details-1 .uploaded-images .lazy-wrapper img {
-  height: 200px;
-  -o-object-fit: cover;
-  object-fit: cover;
-}
-
-.blog-details-1 .uploaded-images a:hover .lazy-wrapper {
-  -webkit-filter: brightness(0.8) !important;
-  filter: brightness(0.8) !important;
-  transition: 0.25s ease-out;
+.blog-profile-1 .recipes .recipe .lazy-wrapper, .blog-profile-1 .recipes .recipe .lazy-wrapper img {
+  height: 400px;
 }
 
 @media (max-width: 992px) {
-  .share-links ul {
-    text-align: left !important;
+  .blog-profile-1 .left {
+    margin-top: 50px !important;
   }
-  .share-links ul li {
-    margin-right: 3%;
-    margin-left: 0 !important;
+  .blog-profile-1 .recipe .lazy-wrapper, .blog-profile-1 .recipe .lazy-wrapper img {
+    height: 300px !important;
   }
 }

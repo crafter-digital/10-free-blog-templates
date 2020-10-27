@@ -19,7 +19,9 @@ $fa-font-path: '../vendor/fonts/';
 @import "blog_1/components/form";
 @import "blog_1/components/lazy_load";
 @import "blog_1/components/navbar";
+@import "blog_1/components/pagination";
 
 // Import Pages
-@import "blog_1/pages/blog_list";
 @import "blog_1/pages/blog_details";
+@import "blog_1/pages/blog_list";
+@import "blog_1/pages/blog_profile";
