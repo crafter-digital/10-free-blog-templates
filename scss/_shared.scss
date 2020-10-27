@@ -39,11 +39,11 @@
   }
 
   &__description {
-    color: $grey-two;
-    font-size: 16px;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
+    color: $grey-two;
     display: -webkit-box;
+    font-size: 16px;
     overflow: hidden;
     text-overflow: ellipsis;
   }
@@ -120,12 +120,11 @@
 }
 
 .dropdown-menu.dropdown-share {
-  min-width: 45px;
-  padding: 0;
-  width: 45px;
-  padding: 10px 0;
-  margin-top: 5px;
   border-color: $light-grey-two;
+  margin-top: 5px;
+  min-width: 45px;
+  padding: 10px 0;
+  width: 45px;
 
   .dropdown-item {
     border-radius: 50%;
@@ -163,16 +162,6 @@
   .recipe {
     &__text {
       padding-left: 0 !important;
-    }
-  }
-}
-
-@media (max-width: 575px) {
-  .recipe {
-    &__image-wrapper {
-      img {
-        height: 300px !important;
-      }
     }
   }
 }

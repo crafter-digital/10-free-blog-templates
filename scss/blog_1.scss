@@ -10,15 +10,14 @@ $fa-font-path: '../vendor/fonts/';
 // Base
 @import "fonts";
 @import "global";
-@import "helpers";
 @import "shared";
 
 // Custom Components
-@import "components/buttons";
-@import "components/carousels";
-@import "components/form";
-@import "components/navbar";
-@import "components/lazy_load";
+@import "blog_1/components/buttons";
+@import "blog_1/components/carousels";
+@import "blog_1/components/form";
+@import "blog_1/components/navbar";
+@import "blog_1/components/lazy_load";
 
 // Import Pages
-@import "pages/blog_1";
+@import "blog_1/pages/blog_list";
