@@ -15,9 +15,11 @@ $fa-font-path: '../vendor/fonts/';
 // Custom Components
 @import "blog_1/components/buttons";
 @import "blog_1/components/carousels";
+@import "blog_1/components/footer";
 @import "blog_1/components/form";
-@import "blog_1/components/navbar";
 @import "blog_1/components/lazy_load";
+@import "blog_1/components/navbar";
 
 // Import Pages
 @import "blog_1/pages/blog_list";
+@import "blog_1/pages/blog_details";

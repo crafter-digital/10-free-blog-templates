@@ -2,14 +2,22 @@
   .form-control {
     border-radius: 0;
     font-size: 15px;
-    height: 50px;
     letter-spacing: 0.5px;
-    padding: 0 20px;
 
     &:active, &:focus {
       box-shadow: none;
       outline: none;
       border-color: black;
     }
+  }
+
+  input[type=email], input[type=text], input[type=passwprd] {
+    height: 50px;
+    padding: 0 20px;
+  }
+
+  textarea {
+    padding: 20px;
+    resize: none;
   }
 }

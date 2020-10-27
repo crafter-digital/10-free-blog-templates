@@ -12892,6 +12892,11 @@ a {
   text-transform: uppercase;
 }
 
+.recipe__author__username:hover {
+  color: #7b7b7b;
+  text-decoration: none;
+}
+
 .recipe__author__date {
   color: #7b7b7b;
   font-size: 13px;
@@ -12956,6 +12961,50 @@ a {
   margin-bottom: 10px;
 }
 
+.subscription-form {
+  background-color: #F7F7F7;
+  font-family: Merriweather, serif;
+  margin-top: 72px;
+  padding: 50px;
+  text-align: center;
+}
+
+.subscription-form h2 {
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.subscription-form p {
+  color: #7b7b7b;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.subscription-form form {
+  margin-top: 30px;
+}
+
+.subscription-form form button {
+  background-color: black;
+  border-color: black;
+  font-size: 14px;
+  height: 50px;
+  margin-top: 20px;
+  padding: 12px 0 8px;
+  width: 100%;
+}
+
+.subscription-form form button:hover {
+  background-color: white;
+  color: black;
+}
+
+.subscription-form form input[type=email]:active, .subscription-form form input[type=email]:focus, .subscription-form form button:active, .subscription-form form button:focus {
+  box-shadow: none;
+  outline: none;
+}
+
 @media (max-width: 922px) {
   .recipe__text {
     padding-left: 0 !important;
@@ -13013,6 +13062,17 @@ a {
 
 .btn-share:hover i, .btn-share:focus i, .btn-share:active i {
   color: white;
+}
+
+.btn-black {
+  background-color: black;
+  color: white;
+}
+
+.btn-black:hover, .btn-black:active, .btn-black:focus {
+  border: 1px solid black;
+  background-color: white;
+  color: black;
 }
 
 .carousel.carousel-index .carousel-inner {
@@ -13109,18 +13169,116 @@ a {
   }
 }
 
+footer {
+  background-color: #F7F7F7;
+  padding: 50px 0 30px;
+}
+
+footer h1.brand {
+  font-family: 'Dancing Script';
+  font-size: 45px;
+}
+
+footer .forum-form h2 {
+  font-family: 'Merriweather';
+  font-size: 22px;
+  margin-bottom: 22px;
+}
+
+footer .forum-form form {
+  margin-bottom: 30px;
+  width: 90%;
+}
+
+footer .forum-form form button {
+  font-family: 'Catamaran';
+  font-size: 13px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+footer ul.footer-menu {
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+footer ul.footer-menu li {
+  font-family: 'Merriweather';
+}
+
+footer ul.footer-menu li.menu-title {
+  display: block;
+  font-weight: 500;
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+footer ul.footer-menu li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+footer ul.footer-menu li a {
+  color: black;
+}
+
+footer ul.footer-menu li a:hover {
+  color: #7b7b7b;
+  text-decoration: none;
+}
+
+footer .social-media li {
+  display: inline;
+  margin-right: 20px;
+}
+
+footer .social-media li i {
+  font-size: 20px;
+}
+
+footer .copyright {
+  margin-top: 20px;
+  border-top: 1px solid #dddbdb;
+  padding-top: 30px;
+  font-family: 'Merriweather';
+  font-size: 14px;
+}
+
 .form-custom .form-control {
   border-radius: 0;
   font-size: 15px;
-  height: 50px;
   letter-spacing: 0.5px;
-  padding: 0 20px;
 }
 
 .form-custom .form-control:active, .form-custom .form-control:focus {
   box-shadow: none;
   outline: none;
   border-color: black;
+}
+
+.form-custom input[type=email], .form-custom input[type=text], .form-custom input[type=passwprd] {
+  height: 50px;
+  padding: 0 20px;
+}
+
+.form-custom textarea {
+  padding: 20px;
+  resize: none;
+}
+
+.lazy-wrapper {
+  background-color: white;
+  -webkit-filter: blur(2vw);
+  filter: blur(2vw);
+  height: 100%;
+  margin: auto;
+}
+
+.lazy-wrapper img {
+  margin: auto;
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 100%;
 }
 
 .nav-wrapper {
@@ -13182,7 +13340,7 @@ a {
 }
 
 .nav-wrapper .navbar-nav .nav-item {
-  margin-bottom: 10px;
+  margin-bottom: 4px;
 }
 
 nav.navbar {
@@ -13257,6 +13415,7 @@ nav.navbar .navbar-nav .dropdown-menu.show .dropdown-item:hover {
 }
 
 .navbar-bottom {
+  border-bottom: 1px solid #EAE9E7;
   height: 65px;
 }
 
@@ -13302,139 +13461,48 @@ nav.navbar .navbar-nav .dropdown-menu.show .dropdown-item:hover {
   }
 }
 
-.lazy-wrapper {
-  background-color: white;
-  -webkit-filter: blur(2vw);
-  filter: blur(2vw);
-  height: 100%;
-  margin: auto;
-}
-
-.lazy-wrapper img {
-  margin: auto;
-  -o-object-fit: cover;
-  object-fit: cover;
-  width: 100%;
-}
-
-footer {
-  background-color: #F7F7F7;
-  margin-top: 100px;
-  padding: 50px 0 30px;
-}
-
-footer h1.brand {
-  font-family: 'Dancing Script';
-  font-size: 45px;
-}
-
-footer .forum-form h2 {
-  font-family: 'Merriweather';
-  font-size: 22px;
-  margin-bottom: 22px;
-}
-
-footer .forum-form form {
-  margin-bottom: 30px;
-  width: 90%;
-}
-
-footer .forum-form form button {
-  font-family: 'Catamaran';
-  font-size: 13px;
-  margin-top: 10px;
-  width: 100%;
-}
-
-footer ul.footer-menu {
-  list-style: none;
-  margin-bottom: 30px;
-}
-
-footer ul.footer-menu li {
-  font-family: 'Merriweather';
-}
-
-footer ul.footer-menu li.menu-title {
-  display: block;
-  font-weight: 500;
-  font-size: 22px;
-  margin-bottom: 12px;
-}
-
-footer ul.footer-menu li {
-  font-size: 16px;
-  margin-bottom: 10px;
-}
-
-footer ul.footer-menu li a {
-  color: black;
-}
-
-footer ul.footer-menu li a:hover {
-  color: #7b7b7b;
-  text-decoration: none;
-}
-
-footer .social-media li {
-  display: inline;
-  margin-right: 20px;
-}
-
-footer .social-media li i {
-  font-size: 20px;
-}
-
-footer .copyright {
-  margin-top: 20px;
-  border-top: 1px solid #dddbdb;
-  padding-top: 30px;
-  font-family: 'Merriweather';
-  font-size: 14px;
-}
-
-.blog-1 .title {
+.blog-list-1 .title {
   font-family: Merriweather, serif;
   font-size: 26px;
   margin-bottom: 40px;
 }
 
-.blog-1 section.recipes_per_three {
+.blog-list-1 section.recipes_per_three {
   margin: 100px 0;
 }
 
-.blog-1 section.recipes_per_three .recipe__title h5 {
+.blog-list-1 section.recipes_per_three .recipe__title h5 {
   height: 50px;
 }
 
-.blog-1 section.recipes_per_three .card {
+.blog-list-1 section.recipes_per_three .card {
   border: none;
   border-radius: 0;
 }
 
-.blog-1 section.recipes_per_three .card .card-body {
+.blog-list-1 section.recipes_per_three .card .card-body {
   margin-top: 20px;
 }
 
-.blog-1 section.books .carousel-inner, .blog-1 section.books .carousel-item {
+.blog-list-1 section.books .carousel-inner, .blog-list-1 section.books .carousel-item {
   height: 600px;
 }
 
-.blog-1 section.books .carousel-item img {
+.blog-list-1 section.books .carousel-item img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
 }
 
-.blog-1 section.books .carousel-caption {
+.blog-list-1 section.books .carousel-caption {
   color: black;
   left: 0;
   text-align: left;
   top: 10%;
 }
 
-.blog-1 section.books .carousel-caption h1 {
+.blog-list-1 section.books .carousel-caption h1 {
   font-family: Merriweather, serif;
   font-size: 45px;
   font-weight: 500;
@@ -13442,96 +13510,52 @@ footer .copyright {
   margin-bottom: 25px;
 }
 
-.blog-1 section.books .carousel-caption h1 span {
+.blog-list-1 section.books .carousel-caption h1 span {
   border-bottom: 3px solid #fee86d;
 }
 
-.blog-1 section.books .carousel-caption p {
+.blog-list-1 section.books .carousel-caption p {
   color: #7b7b7b;
   font-size: 18px;
 }
 
-.blog-1 section.books .carousel-caption .books {
+.blog-list-1 section.books .carousel-caption .books {
   margin-top: 20px;
 }
 
-.blog-1 section.books .carousel-caption .books a.book {
+.blog-list-1 section.books .carousel-caption .books a.book {
   display: contents;
 }
 
-.blog-1 section.books .carousel-caption .books a.book img {
+.blog-list-1 section.books .carousel-caption .books a.book img {
   border: 3px solid #fee86d;
   margin-right: 18px;
   width: 25%;
 }
 
-.blog-1 section.recipes {
+.blog-list-1 section.recipes {
   margin-top: 90px;
 }
 
-.blog-1 section.recipes .recent-recipes .recipe__text {
+.blog-list-1 section.recipes .recent-recipes .recipe__text {
   margin-top: 30px;
   padding-left: 30px;
 }
 
-.blog-1 section.recipes .subscription-form {
-  background-color: #F7F7F7;
-  font-family: Merriweather, serif;
-  margin-top: 72px;
-  padding: 50px;
-  text-align: center;
-}
-
-.blog-1 section.recipes .subscription-form h2 {
-  font-size: 22px;
-  font-weight: 600;
-  text-transform: capitalize;
-}
-
-.blog-1 section.recipes .subscription-form p {
-  color: #7b7b7b;
-  font-size: 15px;
-  margin-top: 20px;
-}
-
-.blog-1 section.recipes .subscription-form form {
-  margin-top: 30px;
-}
-
-.blog-1 section.recipes .subscription-form form button {
-  background-color: black;
-  border-color: black;
-  font-size: 14px;
-  height: 50px;
-  margin-top: 20px;
-  padding: 12px 0 8px;
-  width: 100%;
-}
-
-.blog-1 section.recipes .subscription-form form button:hover {
-  background-color: white;
-  color: black;
-}
-
-.blog-1 section.recipes .subscription-form form input[type=email]:active, .blog-1 section.recipes .subscription-form form input[type=email]:focus, .blog-1 section.recipes .subscription-form form button:active, .blog-1 section.recipes .subscription-form form button:focus {
-  box-shadow: none;
-  outline: none;
-}
-
-.blog-1 section.recipes .latest-recipes, .blog-1 section.recipes .social-media {
+.blog-list-1 section.recipes .latest-recipes, .blog-list-1 section.recipes .social-media {
   border-radius: 3px;
   border: 1px solid #dddbdb;
   margin-top: 50px;
 }
 
-.blog-1 section.recipes .latest-recipes h2, .blog-1 section.recipes .social-media h2 {
+.blog-list-1 section.recipes .latest-recipes h2, .blog-list-1 section.recipes .social-media h2 {
   background-color: white;
   color: #2d2d28;
   font-family: 'Catamaran';
-  font-size: 15px;
+  font-size: 14px;
   letter-spacing: 2px;
   margin: auto;
-  margin-top: -68px;
+  margin-top: -66px;
   padding: 10px 20px;
   text-align: center;
   text-transform: uppercase;
@@ -13540,19 +13564,19 @@ footer .copyright {
   width: fit-content;
 }
 
-.blog-1 section.recipes .latest-recipes {
+.blog-list-1 section.recipes .latest-recipes {
   padding: 50px 30px 30px;
 }
 
-.blog-1 section.recipes .latest-recipes .recipe {
+.blog-list-1 section.recipes .latest-recipes .recipe {
   margin-bottom: 10px;
 }
 
-.blog-1 section.recipes .latest-recipes .recipe img {
+.blog-list-1 section.recipes .latest-recipes .recipe img {
   height: 90%;
 }
 
-.blog-1 section.recipes .latest-recipes .recipe__title-wrapper p {
+.blog-list-1 section.recipes .latest-recipes .recipe__title-wrapper p {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
   display: -webkit-box;
@@ -13562,55 +13586,55 @@ footer .copyright {
   text-overflow: ellipsis;
 }
 
-.blog-1 section.recipes .latest-recipes .recipe__text {
+.blog-list-1 section.recipes .latest-recipes .recipe__text {
   margin-top: 10px;
 }
 
-.blog-1 section.recipes .latest-recipes .recipe__date {
+.blog-list-1 section.recipes .latest-recipes .recipe__date {
   color: #7b7b7b;
   font-family: 'Catamaran';
   font-size: 15px;
 }
 
-.blog-1 section.recipes .social-media {
+.blog-list-1 section.recipes .social-media {
   padding: 25px 0 5px;
 }
 
-.blog-1 section.recipes .social-media h2 {
-  margin-top: -45px;
+.blog-list-1 section.recipes .social-media h2 {
+  margin-top: -43px;
 }
 
-.blog-1 section.recipes .social-media ul {
+.blog-list-1 section.recipes .social-media ul {
   list-style: none;
 }
 
-.blog-1 section.recipes .social-media ul li {
+.blog-list-1 section.recipes .social-media ul li {
   display: inline;
 }
 
-.blog-1 section.recipes .social-media ul li a {
+.blog-list-1 section.recipes .social-media ul li a {
   color: black;
   font-size: 25px;
   margin: 15px;
 }
 
-.blog-1 section.recipes .social-media ul li a:hover {
+.blog-list-1 section.recipes .social-media ul li a:hover {
   color: #7b7b7b;
 }
 
-.blog-1 section.new-recipes {
+.blog-list-1 section.new-recipes {
   background-color: #F7F7F7;
   margin-top: 100px;
   padding: 5% 0;
 }
 
-.blog-1 section.new-recipes h1 {
+.blog-list-1 section.new-recipes h1 {
   font-family: 'Merriweather';
   font-weight: 500;
   text-transform: capitalize;
 }
 
-.blog-1 section.new-recipes p {
+.blog-list-1 section.new-recipes p {
   color: #7b7b7b;
   font-family: 'Merriweather';
   font-size: 16px;
@@ -13618,37 +13642,357 @@ footer .copyright {
   margin-top: 20px;
 }
 
-.blog-1 section.new-recipes .videos {
+.blog-list-1 section.new-recipes .videos {
   margin-top: 50px;
 }
 
-.blog-1 section.new-recipes .videos iframe {
+.blog-list-1 section.new-recipes .videos iframe {
   width: 100%;
   margin-bottom: 30px;
 }
 
-.blog-1 section.popular-recipes {
+.blog-list-1 section.popular-recipes {
   margin-top: 90px;
 }
 
-.blog-1 section.popular-recipes .recipe .lazy-wrapper {
+.blog-list-1 section.popular-recipes .recipe .lazy-wrapper {
   height: 200px;
 }
 
-.blog-1 section.popular-recipes .recipe .lazy-wrapper img {
+.blog-list-1 section.popular-recipes .recipe .lazy-wrapper img {
   height: 100% !important;
 }
 
-.blog-1 section.popular-recipes .recipe__title-wrapper {
+.blog-list-1 section.popular-recipes .recipe__title-wrapper {
   margin-top: 10px;
 }
 
-.blog-1 section.popular-recipes .recipe__title-wrapper p {
+.blog-list-1 section.popular-recipes .recipe__title-wrapper p {
   font-size: 15px;
 }
 
 @media (max-width: 1200px) {
   .blog-1 section.books .carousel-caption {
     top: 8%;
+  }
+}
+
+.blog-details-1 ul {
+  list-style: none;
+}
+
+.blog-details-1 h1, .blog-details-1 h2, .blog-details-1 h3 {
+  font-family: 'Merriweather';
+}
+
+.blog-details-1 h1 {
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+.blog-details-1 h2.sub-title {
+  display: flex;
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.blog-details-1 h2.sub-title span.text {
+  flex: 0 0 auto;
+}
+
+.blog-details-1 h2.sub-title span.lines {
+  border-bottom: 1px solid #dddbdb;
+  border-top: 1px solid #dddbdb;
+  height: 7px;
+  margin-left: 18px;
+  margin-top: 11px;
+  width: 100%;
+}
+
+.blog-details-1 section.header {
+  margin-top: 50px;
+}
+
+.blog-details-1 section.header .share-links {
+  margin-top: 8px;
+}
+
+.blog-details-1 section.header .share-links ul {
+  text-align: end;
+}
+
+.blog-details-1 section.header .share-links ul li {
+  display: inline;
+  font-size: 14px;
+  margin-left: 3%;
+  padding: 1% 2.5%;
+}
+
+.blog-details-1 section.header .share-links ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.blog-details-1 section.header .share-links ul li i {
+  margin-right: 5px;
+}
+
+.blog-details-1 section.header .share-links ul li:hover {
+  -webkit-filter: brightness(0.9);
+  filter: brightness(0.9);
+}
+
+.blog-details-1 section.header .share-links .facebook {
+  background-color: #3b5998;
+}
+
+.blog-details-1 section.header .share-links .pinterest {
+  background-color: #CB2027;
+}
+
+.blog-details-1 section.header .share-links .twitter {
+  background-color: #00aced;
+}
+
+.blog-details-1 section.content {
+  margin-top: 30px;
+}
+
+.blog-details-1 section.content .media-wrapper video, .blog-details-1 section.content .media-wrapper img {
+  width: 100%;
+}
+
+.blog-details-1 section.content .details {
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.blog-details-1 section.content .details ul {
+  text-align: center;
+}
+
+.blog-details-1 section.content .details ul li {
+  display: inline;
+  font-family: 'Catamaran';
+  font-size: 14px;
+  font-weight: 500;
+  margin: 15px;
+  text-transform: uppercase;
+}
+
+.blog-details-1 section.content .details p.description {
+  color: #5c5c5c;
+  font-size: 18px;
+}
+
+.blog-details-1 section.content .ingredients, .blog-details-1 section.content .directions, .blog-details-1 section.content .notes {
+  margin-bottom: 40px;
+}
+
+.blog-details-1 section.content .ingredients h3 {
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.blog-details-1 section.content .ingredients ul {
+  margin-bottom: 30px;
+}
+
+.blog-details-1 section.content .ingredients li {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: .5px;
+  margin-bottom: 20px;
+}
+
+.blog-details-1 section.content .ingredients li i {
+  color: #dddbdb;
+  margin-right: 10px;
+}
+
+.blog-details-1 section.content .directions span.number {
+  background-color: #fee86d;
+  border-radius: 50%;
+  color: black;
+  font-family: 'Merriweather';
+  font-size: 23px;
+  height: 48px;
+  left: 0;
+  line-height: 48px;
+  margin-top: 0;
+  position: absolute;
+  text-align: center;
+  width: 48px;
+}
+
+.blog-details-1 section.content .directions .direction-inner {
+  padding-left: 52px;
+}
+
+.blog-details-1 section.content .directions .direction {
+  margin-bottom: 50px;
+}
+
+.blog-details-1 section.content .directions .direction__title {
+  font-size: 21px;
+}
+
+.blog-details-1 section.content .directions .direction__media {
+  margin: 20px 0;
+}
+
+.blog-details-1 section.content .directions .direction__media img, .blog-details-1 section.content .directions .direction__media video {
+  height: 350px;
+  margin-bottom: 30px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 100%;
+}
+
+.blog-details-1 section.content p, .blog-details-1 section.notes p {
+  color: #7b7b7b;
+  font-size: 17px;
+  letter-spacing: 0.2px;
+  margin-top: 15px;
+}
+
+.blog-details-1 section.related-recipes {
+  margin-top: 100px;
+}
+
+.blog-details-1 section.related-recipes .lazy-wrapper {
+  height: 300px;
+}
+
+.blog-details-1 section.related-recipes .recipe__title p {
+  font-size: 17px;
+  margin-top: 15px;
+}
+
+.blog-details-1 section.comments {
+  margin-bottom: 100px;
+}
+
+.blog-details-1 .right {
+  margin-top: 50px;
+}
+
+.blog-details-1 .right .latest-recipes, .blog-details-1 .right .profile {
+  border-radius: 3px;
+  border: 1px solid #dddbdb;
+  margin-top: 50px;
+}
+
+.blog-details-1 .right .latest-recipes h3, .blog-details-1 .right .profile h3 {
+  background-color: white;
+  color: #2d2d28;
+  font-family: 'Catamaran';
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin: auto;
+  padding: 10px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.blog-details-1 .right .latest-recipes {
+  padding: 50px 30px 30px;
+}
+
+.blog-details-1 .right .latest-recipes h3 {
+  margin-top: -68px;
+}
+
+.blog-details-1 .right .latest-recipes .recipe {
+  margin-bottom: 10px;
+}
+
+.blog-details-1 .right .latest-recipes .recipe img {
+  height: 90%;
+}
+
+.blog-details-1 .right .latest-recipes .recipe__title-wrapper p {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  font-size: 16px;
+  margin-bottom: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.blog-details-1 .right .latest-recipes .recipe__text {
+  margin-top: 10px;
+}
+
+.blog-details-1 .right .latest-recipes .recipe__date {
+  color: #7b7b7b;
+  font-family: 'Catamaran';
+  font-size: 15px;
+}
+
+.blog-details-1 .right .profile {
+  padding: 60px 30px;
+}
+
+.blog-details-1 .right .profile h3 {
+  margin-top: -78px;
+}
+
+.blog-details-1 .right .profile__avatar {
+  width: 100px;
+  height: 100px;
+}
+
+.blog-details-1 .right .profile__avatar img {
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.blog-details-1 .right .profile__name {
+  font-size: 26px;
+  font-weight: 500;
+  justify-content: center;
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
+
+.blog-details-1 .right .profile__bio {
+  font-size: 16px;
+}
+
+.blog-details-1 .uploaded-images {
+  margin-top: 100px;
+}
+
+.blog-details-1 .uploaded-images .lazy-wrapper {
+  height: 200px;
+}
+
+.blog-details-1 .uploaded-images .lazy-wrapper img {
+  height: 200px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.blog-details-1 .uploaded-images a:hover .lazy-wrapper {
+  -webkit-filter: brightness(0.8) !important;
+  filter: brightness(0.8) !important;
+  transition: 0.25s ease-out;
+}
+
+@media (max-width: 992px) {
+  .share-links ul {
+    text-align: left !important;
+  }
+  .share-links ul li {
+    margin-right: 3%;
+    margin-left: 0 !important;
   }
 }

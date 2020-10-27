@@ -47,7 +47,7 @@
 
   .navbar-nav {
     .nav-item {
-      margin-bottom: 10px;
+      margin-bottom: 4px;
     }
   }
 }
@@ -126,6 +126,7 @@ nav.navbar {
 }
 
 .navbar-bottom {
+  border-bottom: 1px solid $light-grey;
   height: 65px;
 
   ul {
