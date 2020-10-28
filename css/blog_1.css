@@ -13129,6 +13129,36 @@ a {
   }
 }
 
+.title, .sub-title {
+  font-family: 'Merriweather';
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+.sub-title {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.sub-title span.text {
+  color: black;
+  font-size: 22px;
+  flex: 0 0 auto;
+}
+
+.sub-title span.lines {
+  border-bottom: 1px solid #dddbdb;
+  border-top: 1px solid #dddbdb;
+  height: 7px;
+  margin-left: 18px;
+  margin-top: 11px;
+  width: 100%;
+}
+
 .btn {
   border-radius: 0;
   font-family: 'Catamaran', sans-serif;
@@ -13384,9 +13414,16 @@ footer .copyright {
   border-color: black;
 }
 
-.form-custom input[type=email], .form-custom input[type=text], .form-custom input[type=password] {
+.form-custom input[type=email], .form-custom input[type=text], .form-custom input[type=password], .form-custom select {
+  border-radius: 0;
   height: 50px;
   padding: 0 20px;
+}
+
+.form-custom input[type=email]:active, .form-custom input[type=email]:focus, .form-custom input[type=text]:active, .form-custom input[type=text]:focus, .form-custom input[type=password]:active, .form-custom input[type=password]:focus, .form-custom select:active, .form-custom select:focus {
+  box-shadow: none;
+  outline: none;
+  border-color: black;
 }
 
 .form-custom textarea {
@@ -13606,15 +13643,16 @@ nav.navbar .nav-link.disabled {
 }
 
 nav.navbar .navbar-nav .dropdown-menu.show {
+  border-color: #EAE9E7;
   border-radius: 0;
   margin-top: 15px;
-  border-color: #EAE9E7;
 }
 
 nav.navbar .navbar-nav .dropdown-menu.show .dropdown-item {
   color: #5c5c5c;
   font-size: 16px;
   line-height: 30px;
+  margin-bottom: 10px;
   padding: 0px 15px;
 }
 
@@ -13740,37 +13778,40 @@ nav.navbar .navbar-nav .dropdown-menu.show .dropdown-item:hover {
   outline: none;
 }
 
+.blog-contact-1 {
+  margin-top: 50px;
+}
+
+.blog-contact-1 section.intro .text {
+  margin-bottom: 30px;
+}
+
+.blog-contact-1 section.faq {
+  margin-top: 50px;
+}
+
+.blog-contact-1 section.faq .qa {
+  margin-bottom: 40px;
+}
+
+.blog-contact-1 section.faq .qa .question {
+  font-family: 'Merriweather';
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.blog-contact-1 .text, .blog-contact-1 .answer {
+  color: #5c5c5c;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+
 .blog-details-1 ul {
   list-style: none;
 }
 
 .blog-details-1 h1, .blog-details-1 h2, .blog-details-1 h3 {
   font-family: 'Merriweather';
-}
-
-.blog-details-1 h1 {
-  font-size: 40px;
-  font-weight: 500;
-  margin-bottom: 25px;
-}
-
-.blog-details-1 h2.sub-title {
-  display: flex;
-  font-size: 22px;
-  margin-bottom: 30px;
-}
-
-.blog-details-1 h2.sub-title span.text {
-  flex: 0 0 auto;
-}
-
-.blog-details-1 h2.sub-title span.lines {
-  border-bottom: 1px solid #dddbdb;
-  border-top: 1px solid #dddbdb;
-  height: 7px;
-  margin-left: 18px;
-  margin-top: 11px;
-  width: 100%;
 }
 
 .blog-details-1 section.header {
