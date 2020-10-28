@@ -11,6 +11,21 @@
 </head>
 
 <body>
+  <div class="nav-wrapper-top d-none d-lg-block d-xl-block">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#registerModal" data-toggle="modal" data-target="#registerModal"><i class="fa fa-smile-o"></i>Register</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#loginModal" data-toggle="modal" data-target="#loginModal"><i class="fa fa-user-o"></i>Login</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
   <div class="nav-wrapper d-none d-lg-block d-xl-block">
     <nav class="navbar navbar-top navbar-expand-lg navbar-light bg-white">
       <div class="row">
@@ -32,7 +47,7 @@
                 <a class="nav-link" href="#"><i class="fa fa-heart-o"></i> Favourites</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fa fa-shopping-cart"></i> Cart</a>
+                <a class="nav-link"><i class="fa fa-shopping-cart"></i> Cart</a>
               </li>
             </ul>
           </div>
@@ -100,6 +115,12 @@
           <li class="nav-item">
             <a class="nav-link disabled" href="#">Disabled</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Register</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Login</a>
+          </li>
         </ul>
         <form class="form-inline col-8 p-0 form-search">
           <input class="form-control col-10" type="search" placeholder="Search" aria-label="Search">
@@ -115,18 +136,24 @@
     <div class="carousel carousel-index slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <div class="lazy-wrapper" data-src="img/food.jpg">
-            <img alt="First slide">
-          </div>
+          <a href="1-blog-details.html">
+            <div class="lazy-wrapper" data-src="img/food.jpg">
+              <img alt="First slide">
+            </div>
+          </a>
           <div class="carousel-caption">
-            <h1 class="caption__title">Check out my newest vegan recipes</h1>
+            <a href="1-blog-details.html" class="caption__title">
+              Check out my newest vegan recipes
+            </a>
             <p class="caption__description">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor
               incididunt ut labore et dolore magna aliqut enim ad mi</p>
             <div class="row user">
               <div class="col-12 p-0">
                 <img src="img/user.jpg" alt="" class="caption__avatar">
                 <div class="caption__text">
-                  <p class="caption__username">Zarqaa el Hussein</p>
+                  <a href="1-blog-profile.html" class="caption__username">
+                    Zarqaa el Hussein
+                  </a>
                   <p class="caption__date">Oct 16, 2020</p>
                 </div>
               </div>
@@ -135,18 +162,25 @@
         </div>
 
         <div class="carousel-item">
-          <div class="lazy-wrapper" data-src="img/food2.jpg">
-            <img alt="First slide">
-          </div>
+          <a href="1-blog-details.html">
+            <div class="lazy-wrapper" data-src="img/food2.jpg">
+              <img alt="Second slide">
+            </div>
+          </a>
           <div class="carousel-caption">
-            <h1 class="caption__title">Easy delicious breakfast recipe</h1>
+            <a href="1-blog-details.html" class="caption__title">
+              Easy delicious breakfast recipe
+            </a>
+
             <p class="caption__description">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor
               incididunt ut labore et dolore magna aliqut enim ad mi</p>
             <div class="row user">
               <div class="col-12 p-0">
                 <img src="img/user.jpg" alt="" class="caption__avatar">
                 <div class="caption__text">
-                  <p class="caption__username">Zarqaa el Hussein</p>
+                  <a href="1-blog-profile.html" class="caption__username">
+                    Zarqaa el Hussein
+                  </a>
                   <p class="caption__date">Oct 16, 2020</p>
                 </div>
               </div>
@@ -185,7 +219,7 @@
                     <div class="col-6 p-0">
                       <img src="img/user.jpg" alt="" class="recipe__author__avatar">
                       <div class="recipe__author__text">
-                        <a href="#" class="recipe__author__username">Zarqaa el Hussein</a>
+                        <a href="1-blog-profile.html" class="recipe__author__username">Zarqaa el Hussein</a>
                         <p class="recipe__author__date">Oct 16, 2020</p>
                       </div>
                     </div>
@@ -242,7 +276,7 @@
                     <div class="col-6 p-0">
                       <img src="img/user.jpg" alt="" class="recipe__author__avatar">
                       <div class="recipe__author__text">
-                        <a href="#" class="recipe__author__username">Zarqaa el Hussein</a>
+                        <a href="1-blog-profile.html" class="recipe__author__username">Zarqaa el Hussein</a>
                         <p class="recipe__author__date">Oct 16, 2020</p>
                       </div>
                     </div>
@@ -299,7 +333,7 @@
                     <div class="col-6 p-0">
                       <img src="img/user.jpg" alt="" class="recipe__author__avatar">
                       <div class="recipe__author__text">
-                        <a href="#" class="recipe__author__username">Zarqaa el Hussein</a>
+                        <a href="1-blog-profile.html" class="recipe__author__username">Zarqaa el Hussein</a>
                         <p class="recipe__author__date">Oct 16, 2020</p>
                       </div>
                     </div>
@@ -379,7 +413,7 @@
 
               <div class="row recipe">
                 <div class="col-lg-6 p-0">
-                  <a href="#" class="recipe__image-wrapper">
+                  <a href="1-blog-details.html" class="recipe__image-wrapper">
                     <div class="lazy-wrapper" data-src="img/food.jpg">
                       <img alt="food">
                     </div>
@@ -406,7 +440,7 @@
                     <div class="col-6 p-0">
                       <img src="img/user.jpg" alt="" class="recipe__author__avatar">
                       <div class="recipe__author__text">
-                        <a href="#" class="recipe__author__username">Zarqaa el Hussein</a>
+                        <a href="1-blog-profile.html" class="recipe__author__username">Zarqaa el Hussein</a>
                         <p class="recipe__author__date">Oct 16, 2020</p>
                       </div>
                     </div>
@@ -416,7 +450,7 @@
 
               <div class="row recipe">
                 <div class="col-lg-6 p-0">
-                  <a href="#" class="recipe__image-wrapper">
+                  <a href="1-blog-details.html" class="recipe__image-wrapper">
                     <div class="lazy-wrapper" data-src="img/food2.jpg">
                       <span class="badge badge-warning badge-video"><i class="fa fa-video-camera"></i> Video</span>
                       <img alt="food">
@@ -444,7 +478,7 @@
                     <div class="col-6 p-0">
                       <img src="img/user.jpg" alt="" class="recipe__author__avatar">
                       <div class="recipe__author__text">
-                        <a href="#" class="recipe__author__username">Zarqaa el Hussein</a>
+                        <a href="1-blog-profile.html" class="recipe__author__username">Zarqaa el Hussein</a>
                         <p class="recipe__author__date">Oct 16, 2020</p>
                       </div>
                     </div>
@@ -454,7 +488,7 @@
 
               <div class="row recipe">
                 <div class="col-lg-6 p-0">
-                  <a href="#" class="recipe__image-wrapper">
+                  <a href="1-blog-details.html" class="recipe__image-wrapper">
                     <div class="lazy-wrapper" data-src="img/food3.jpg">
                       <img alt="food">
                     </div>
@@ -481,7 +515,7 @@
                     <div class="col-6 p-0">
                       <img src="img/user.jpg" alt="" class="recipe__author__avatar">
                       <div class="recipe__author__text">
-                        <a href="#" class="recipe__author__username">Zarqaa el Hussein</a>
+                        <a href="1-blog-profile.html" class="recipe__author__username">Zarqaa el Hussein</a>
                         <p class="recipe__author__date">Oct 16, 2020</p>
                       </div>
                     </div>
@@ -491,7 +525,7 @@
 
               <div class="row recipe">
                 <div class="col-lg-6 p-0">
-                  <a href="#" class="recipe__image-wrapper">
+                  <a href="1-blog-details.html" class="recipe__image-wrapper">
                     <div class="lazy-wrapper" data-src="img/food4.jpg">
                       <span class="badge badge-warning badge-video"><i class="fa fa-video-camera"></i> Video</span>
                       <img alt="food">
@@ -519,7 +553,7 @@
                     <div class="col-6 p-0">
                       <img src="img/user.jpg" alt="" class="recipe__author__avatar">
                       <div class="recipe__author__text">
-                        <a href="#" class="recipe__author__username">Zarqaa el Hussein</a>
+                        <a href="1-blog-profile.html" class="recipe__author__username">Zarqaa el Hussein</a>
                         <p class="recipe__author__date">Oct 16, 2020</p>
                       </div>
                     </div>
@@ -529,7 +563,7 @@
 
               <div class="row recipe">
                 <div class="col-lg-6 p-0">
-                  <a href="#" class="recipe__image-wrapper">
+                  <a href="1-blog-details.html" class="recipe__image-wrapper">
                     <div class="lazy-wrapper" data-src="img/food5.jpg">
                       <img alt="food">
                     </div>
@@ -556,7 +590,7 @@
                     <div class="col-6 p-0">
                       <img src="img/user.jpg" alt="" class="recipe__author__avatar">
                       <div class="recipe__author__text">
-                        <a href="#" class="recipe__author__username">Zarqaa el Hussein</a>
+                        <a href="1-blog-profile.html" class="recipe__author__username">Zarqaa el Hussein</a>
                         <p class="recipe__author__date">Oct 16, 2020</p>
                       </div>
                     </div>
@@ -566,7 +600,7 @@
 
               <div class="row recipe">
                 <div class="col-lg-6 p-0">
-                  <a href="#" class="recipe__image-wrapper">
+                  <a href="1-blog-details.html" class="recipe__image-wrapper">
                     <div class="lazy-wrapper" data-src="img/food6.jpg">
                       <span class="badge badge-warning badge-video"><i class="fa fa-video-camera"></i> Video</span>
                       <img alt="food">
@@ -594,7 +628,7 @@
                     <div class="col-6 p-0">
                       <img src="img/user.jpg" alt="" class="recipe__author__avatar">
                       <div class="recipe__author__text">
-                        <a href="#" class="recipe__author__username">Zarqaa el Hussein</a>
+                        <a href="1-blog-profile.html" class="recipe__author__username">Zarqaa el Hussein</a>
                         <p class="recipe__author__date">Oct 16, 2020</p>
                       </div>
                     </div>
@@ -604,7 +638,7 @@
 
               <div class="row recipe">
                 <div class="col-lg-6 p-0">
-                  <a href="#" class="recipe__image-wrapper">
+                  <a href="1-blog-details.html" class="recipe__image-wrapper">
                     <div class="lazy-wrapper" data-src="img/food7.jpg">
                       <img alt="food">
                     </div>
@@ -631,7 +665,7 @@
                     <div class="col-6 p-0">
                       <img src="img/user.jpg" alt="" class="recipe__author__avatar">
                       <div class="recipe__author__text">
-                        <a href="#" class="recipe__author__username">Zarqaa el Hussein</a>
+                        <a href="1-blog-profile.html" class="recipe__author__username">Zarqaa el Hussein</a>
                         <p class="recipe__author__date">Oct 16, 2020</p>
                       </div>
                     </div>
@@ -641,7 +675,7 @@
 
               <div class="row recipe">
                 <div class="col-lg-6 p-0">
-                  <a href="#" class="recipe__image-wrapper">
+                  <a href="1-blog-details.html" class="recipe__image-wrapper">
                     <div class="lazy-wrapper" data-src="img/food9.jpg">
                       <span class="badge badge-warning badge-video"><i class="fa fa-video-camera"></i> Video</span>
                       <img alt="food">
@@ -669,7 +703,7 @@
                     <div class="col-6 p-0">
                       <img src="img/user.jpg" alt="" class="recipe__author__avatar">
                       <div class="recipe__author__text">
-                        <a href="#" class="recipe__author__username">Zarqaa el Hussein</a>
+                        <a href="1-blog-profile.html" class="recipe__author__username">Zarqaa el Hussein</a>
                         <p class="recipe__author__date">Oct 16, 2020</p>
                       </div>
                     </div>
@@ -685,7 +719,7 @@
                   <p>Sign up for free and be the first to get notified about updates.</p>
                   <form class="form-custom">
                     <input type="email" class="form-control" placeholder="Your Email">
-                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                    <button type="submit" class="btn btn-black">Subscribe</button>
                   </form>
                 </div>
               </div>
@@ -811,7 +845,7 @@
         <div class="col-sm-12 col-md-12 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1">
           <div class="row recipes">
             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 recipe">
-              <a href="#" class="recipe__image-wrapper">
+              <a href="1-blog-details.html" class="recipe__image-wrapper">
                 <div class="lazy-wrapper" data-src="img/food.jpg">
                   <img alt="food">
                 </div>
@@ -824,7 +858,7 @@
             </div>
 
             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 recipe">
-              <a href="#" class="recipe__image-wrapper">
+              <a href="1-blog-details.html" class="recipe__image-wrapper">
                 <div class="lazy-wrapper" data-src="img/food2.jpg">
                   <img alt="food">
                 </div>
@@ -837,7 +871,7 @@
             </div>
 
             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 recipe">
-              <a href="#" class="recipe__image-wrapper">
+              <a href="1-blog-details.html" class="recipe__image-wrapper">
                 <div class="lazy-wrapper" data-src="img/food3.jpg">
                   <img alt="food">
                 </div>
@@ -850,7 +884,7 @@
             </div>
 
             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 recipe">
-              <a href="#" class="recipe__image-wrapper">
+              <a href="1-blog-details.html" class="recipe__image-wrapper">
                 <div class="lazy-wrapper" data-src="img/food4.jpg">
                   <img alt="food">
                 </div>
@@ -863,7 +897,7 @@
             </div>
 
             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 recipe">
-              <a href="#" class="recipe__image-wrapper">
+              <a href="1-blog-details.html" class="recipe__image-wrapper">
                 <div class="lazy-wrapper" data-src="img/food5.jpg">
                   <img alt="food">
                 </div>
@@ -876,7 +910,7 @@
             </div>
 
             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 recipe">
-              <a href="#" class="recipe__image-wrapper">
+              <a href="1-blog-details.html" class="recipe__image-wrapper">
                 <div class="lazy-wrapper" data-src="img/food6.jpg">
                   <img alt="food">
                 </div>
@@ -889,7 +923,7 @@
             </div>
 
             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 recipe">
-              <a href="#" class="recipe__image-wrapper">
+              <a href="1-blog-details.html" class="recipe__image-wrapper">
                 <div class="lazy-wrapper" data-src="img/food7.jpg">
                   <img alt="food">
                 </div>
@@ -902,7 +936,7 @@
             </div>
 
             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 recipe">
-              <a href="#" class="recipe__image-wrapper">
+              <a href="1-blog-details.html" class="recipe__image-wrapper">
                 <div class="lazy-wrapper" data-src="img/food9.jpg">
                   <img alt="food">
                 </div>
@@ -972,6 +1006,100 @@
       </div>
     </div>
   </footer>
+
+  <!-- Register Modal -->
+  <div class="modal fade login-modal" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="registerModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title">Register</h1>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form class="form-custom">
+            <div class="form-row">
+              <div class="form-group col-md-12">
+                <input type="text" class="form-control" placeholder="Username">
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group col-md-12">
+                <input type="email" class="form-control" placeholder="Email">
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group col-md-12">
+                <input type="password" class="form-control" placeholder="Password">
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group col-md-12">
+                <input type="password" class="form-control" placeholder="Password Confirmation">
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-black">Register</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Login Modal -->
+  <div class="modal fade login-modal" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title">Login</h1>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form class="form-custom">
+            <div class="form-row">
+              <div class="form-group col-md-12">
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-12">
+                <input type="password" class="form-control" placeholder="Password">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Remember me
+                  </label>
+                </div>
+              </div>
+
+              <div class="form-group col-md-6 text-right">
+                <a href="#">Forgot Password</a>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-black">Login</button>
+
+            <p>Or login with</p>
+            <ul class="login-links p-0">
+              <li class="google"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+              <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+            </ul>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Bootstrap core JavaScript-->
   <script src="vendor/jquery/jquery.min.js"></script>

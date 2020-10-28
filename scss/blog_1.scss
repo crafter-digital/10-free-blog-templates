@@ -10,6 +10,7 @@ $fa-font-path: '../vendor/fonts/';
 // Base
 @import "blog_1/fonts";
 @import "blog_1/global";
+@import "blog_1/helpers";
 @import "blog_1/shared";
 
 // Custom Components
@@ -18,6 +19,7 @@ $fa-font-path: '../vendor/fonts/';
 @import "blog_1/components/footer";
 @import "blog_1/components/form";
 @import "blog_1/components/lazy_load";
+@import "blog_1/components/modals";
 @import "blog_1/components/navbar";
 @import "blog_1/components/pagination";
 

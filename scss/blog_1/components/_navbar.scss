@@ -1,3 +1,21 @@
+.nav-wrapper-top {
+  nav {
+    height: 45px;
+    padding: 0 11% !important;
+  }
+
+  .nav-item {
+    margin-left: 15px;
+  }
+
+  .nav-link {
+    color: white !important;
+
+    &:hover {
+      color: $grey-three !important;
+    }
+  }
+}
 .nav-wrapper {
   padding: 0 10%;
 
@@ -72,20 +90,25 @@ nav.navbar {
     }
   }
 
+  .nav-link.disabled {
+    color: $grey-three !important;
+  }
+
   .navbar-nav {
     .dropdown-menu.show {
       border-radius: 0;
-      margin-top: 12px;
-  
+      margin-top: 15px;
+      border-color: $light-grey;
+
       .dropdown-item {
         color: $grey;
-        font-size: 15px;
+        font-size: 16px;
         line-height: 30px;
         padding: 0px 15px;
   
         &:hover {
           background-color: unset;
-          color: $grey-two;
+          color: $grey-three;
         }
       }
     }

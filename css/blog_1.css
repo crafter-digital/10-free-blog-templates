@@ -12800,6 +12800,10 @@ a {
   width: 100%;
 }
 
+.bg-black {
+  background-color: black;
+}
+
 .recipe {
   margin-bottom: 30px;
 }
@@ -13128,7 +13132,7 @@ a {
 .btn {
   border-radius: 0;
   font-family: 'Catamaran', sans-serif;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 600;
   letter-spacing: .15em;
   line-height: 2em;
@@ -13223,7 +13227,11 @@ a {
   font-size: 45px;
   font-weight: 400;
   line-height: 1.2em;
-  margin-bottom: 35px;
+}
+
+.carousel.carousel-index .carousel-caption .caption__title:hover {
+  color: #7b7b7b;
+  text-decoration: none;
 }
 
 .carousel.carousel-index .carousel-caption .caption__description {
@@ -13231,6 +13239,7 @@ a {
   font-size: 18px;
   font-weight: 400;
   line-height: 1.625em;
+  margin-top: 35px;
   margin-bottom: 28px;
 }
 
@@ -13257,6 +13266,11 @@ a {
   margin-bottom: 5px;
   margin-top: 5px;
   text-transform: uppercase;
+}
+
+.carousel.carousel-index .carousel-caption .caption__username:hover {
+  color: #7b7b7b;
+  text-decoration: none;
 }
 
 .carousel.carousel-index .carousel-caption .caption__date {
@@ -13361,7 +13375,7 @@ footer .copyright {
 .form-custom .form-control {
   border-radius: 0;
   font-size: 15px;
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
 }
 
 .form-custom .form-control:active, .form-custom .form-control:focus {
@@ -13370,7 +13384,7 @@ footer .copyright {
   border-color: black;
 }
 
-.form-custom input[type=email], .form-custom input[type=text], .form-custom input[type=passwprd] {
+.form-custom input[type=email], .form-custom input[type=text], .form-custom input[type=password] {
   height: 50px;
   padding: 0 20px;
 }
@@ -13378,6 +13392,24 @@ footer .copyright {
 .form-custom textarea {
   padding: 20px;
   resize: none;
+}
+
+.form-custom .form-check-label, .form-custom a {
+  color: #6b6768;
+  letter-spacing: 0.8px;
+}
+
+.form-custom .form-check-label {
+  margin-left: 5px;
+}
+
+.form-custom a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.form-custom .form-group {
+  margin-bottom: 20px;
 }
 
 .lazy-wrapper {
@@ -13393,6 +13425,97 @@ footer .copyright {
   -o-object-fit: cover;
   object-fit: cover;
   width: 100%;
+}
+
+.login-modal .modal-content {
+  border-radius: 0;
+  border: none;
+  margin: auto;
+  padding: 20px;
+  width: 90%;
+}
+
+.login-modal .modal-header {
+  border: none;
+}
+
+.login-modal .modal-title {
+  font-family: 'Merriweather';
+  font-size: 30px;
+}
+
+.login-modal button.close {
+  outline: none;
+  box-shadow: none;
+}
+
+.login-modal form button {
+  padding: 10px;
+  width: 50%;
+}
+
+.login-modal p {
+  color: #6b6768;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  margin-bottom: 5px;
+  margin-top: 30px;
+}
+
+.login-modal .login-links {
+  list-style: none;
+}
+
+.login-modal .login-links li {
+  border-radius: 50%;
+  display: inline-table;
+  height: 30px;
+  margin: auto;
+  margin-right: 5px;
+  padding: 0;
+  text-align: center;
+  width: 30px;
+}
+
+.login-modal .login-links li a {
+  color: white;
+  font-size: 13px;
+  position: relative;
+  top: 3px;
+}
+
+.login-modal .login-links li:hover {
+  -webkit-filter: brightness(0.8);
+  filter: brightness(0.8);
+}
+
+.login-modal .login-links .facebook {
+  background-color: #3b5998;
+}
+
+.login-modal .login-links .twitter {
+  background-color: #00aced;
+}
+
+.login-modal .login-links .google {
+  background-color: #F04A4A;
+}
+
+.nav-wrapper-top nav {
+  height: 45px;
+  padding: 0 11% !important;
+}
+
+.nav-wrapper-top .nav-item {
+  margin-left: 15px;
+}
+
+.nav-wrapper-top .nav-link {
+  color: white !important;
+}
+
+.nav-wrapper-top .nav-link:hover {
+  color: #7b7b7b !important;
 }
 
 .nav-wrapper {
@@ -13478,21 +13601,26 @@ nav.navbar .nav-link i {
   margin-right: 5px;
 }
 
+nav.navbar .nav-link.disabled {
+  color: #7b7b7b !important;
+}
+
 nav.navbar .navbar-nav .dropdown-menu.show {
   border-radius: 0;
-  margin-top: 12px;
+  margin-top: 15px;
+  border-color: #EAE9E7;
 }
 
 nav.navbar .navbar-nav .dropdown-menu.show .dropdown-item {
   color: #5c5c5c;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 30px;
   padding: 0px 15px;
 }
 
 nav.navbar .navbar-nav .dropdown-menu.show .dropdown-item:hover {
   background-color: unset;
-  color: #6b6768;
+  color: #7b7b7b;
 }
 
 .navbar-top {
