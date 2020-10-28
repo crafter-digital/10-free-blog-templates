@@ -14036,7 +14036,11 @@ nav.navbar .navbar-nav .dropdown-menu.show .dropdown-item:hover {
 }
 
 .blog-profile-1 .left {
-  margin-top: 100px;
+  margin-top: 50px;
+}
+
+.blog-profile-1 .right {
+  margin-top: 0;
 }
 
 .blog-profile-1 .recipes .card {
