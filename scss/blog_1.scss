@@ -15,6 +15,7 @@ $fa-font-path: '../vendor/fonts/';
 @import "blog_1/typography";
 
 // Custom Components
+@import "blog_1/components/breadcrumb";
 @import "blog_1/components/buttons";
 @import "blog_1/components/carousels";
 @import "blog_1/components/footer";
@@ -27,5 +28,6 @@ $fa-font-path: '../vendor/fonts/';
 // Import Pages
 @import "blog_1/pages/blog_contact";
 @import "blog_1/pages/blog_details";
+@import "blog_1/pages/blog_forum";
 @import "blog_1/pages/blog_list";
 @import "blog_1/pages/blog_profile";
