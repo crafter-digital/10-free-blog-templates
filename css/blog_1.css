@@ -14745,6 +14745,10 @@ nav.navbar .navbar-nav .dropdown-menu.show .dropdown-item:hover {
   width: 20%;
 }
 
+.blog-forum-1 .forum-table__topic-details .user {
+  margin-top: 0 !important;
+}
+
 .blog-forum-1 .forum-table__topic-details .user__avatar {
   display: block !important;
   height: 80px !important;
