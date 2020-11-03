@@ -3,12 +3,18 @@
     padding-left: 30px;
   }
 
-  p, span {
+  p, span, a {
     color: $grey-two;
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.3px;
     margin-bottom: 0;
+  }
+
+  p.participant {
+    font-size: 13px;
+    font-style: italic;
+    margin-top: 5px;
   }
 
   .form-login {
@@ -79,7 +85,7 @@
           font-weight: 500;
 
           &:hover {
-            color: black;
+            color: $grey-two;
             text-decoration: none;
           }
         }
@@ -122,10 +128,50 @@
         &__name {
           color: black;
           display: inline;
+          font-family: Catamaran;
           font-size: 13px;
           font-weight: 600;
           margin-left: 5px;
           text-transform: uppercase;
+
+          &:hover {
+            color: $grey-two;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+
+    &__topic-details {
+      tbody .post {
+        width: 20%;
+      }
+
+      .user {
+        &__avatar {
+          display: block !important;
+          height: 80px !important;
+          width: 80px !important;
+          margin: auto;
+        }
+
+        &__name {
+          display: block !important;
+          margin-top: 12px;
+        }
+      }
+
+      .details td {
+        background-color: $pale-grey-two;
+        font-size: 14px;
+        padding: 5px 10px;
+      }
+
+      .post-id {
+        text-align: end;
+
+        a {
+          font-size: 14px;
         }
       }
     }
