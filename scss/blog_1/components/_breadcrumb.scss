@@ -16,6 +16,12 @@
     }
   }
 
+  .breadcrumb-item.active {
+    a {
+      color: $grey-two;
+    }
+  }
+
   .breadcrumb-item+.breadcrumb-item::before {
     content: '>';
   }

@@ -3,6 +3,14 @@
     padding-left: 30px;
   }
 
+  p, span {
+    color: $grey-two;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    margin-bottom: 0;
+  }
+
   .form-login {
     background-color: $light-yellow;
     margin-bottom: 50px;
@@ -52,6 +60,7 @@
     thead {
       th {
         background-color: $pale-grey;
+        color: $grey-two;
         font-family: 'Merriweather';
         font-size: 20px;
         font-weight: 500;
@@ -64,7 +73,7 @@
         padding-left: 30px;
 
         a {
-          color: $grey-two;
+          color: black;
           font-family: 'Merriweather';
           font-size: 16px;
           font-weight: 500;
@@ -93,24 +102,30 @@
           font-size: 15px;
           margin-bottom: 15px;
         }
+      }
 
-        .user {
-          &__avatar {
-            border-radius: 50%;
-            display: inline;
-            height: 25px;
-            object-fit: cover;
-            width: 25px;
-          }
+      .user {
+        margin-top: 10px;
 
-          &__name {
-            color: black;
-            display: inline;
-            font-size: 13px;
-            font-weight: 600;
-            margin-left: 5px;
-            text-transform: uppercase;
-          }
+        span {
+          margin-right: 10px;
+        }
+
+        &__avatar {
+          border-radius: 50%;
+          display: inline;
+          height: 25px;
+          object-fit: cover;
+          width: 25px;
+        }
+
+        &__name {
+          color: black;
+          display: inline;
+          font-size: 13px;
+          font-weight: 600;
+          margin-left: 5px;
+          text-transform: uppercase;
         }
       }
     }
