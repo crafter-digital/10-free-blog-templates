@@ -13297,11 +13297,15 @@ a {
 }
 
 .margin-top-50 {
-  margin-top: 50px;
+  margin-top: 50px !important;
 }
 
 .margin-bottom-50 {
-  margin-bottom: 50px;
+  margin-bottom: 50px !important;
+}
+
+.margin-bottom-100 {
+  margin-bottom: 100px !important;
 }
 
 .recipe {
@@ -13616,11 +13620,65 @@ a {
   object-fit: cover;
 }
 
+.uploaded-images i {
+  color: white;
+  display: none;
+  font-size: 45px;
+  height: 100%;
+  position: absolute;
+  text-align: center;
+  top: 35%;
+  width: 100%;
+}
+
 .uploaded-images a:hover .lazy-wrapper {
   -webkit-filter: brightness(0.8) !important;
   filter: brightness(0.8) !important;
-  -webkit-transition: 0.25s ease-out;
-  transition: 0.25s ease-out;
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+}
+
+.uploaded-images a:hover i {
+  display: block;
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+}
+
+section.recipes-per-three {
+  margin: 100px 0;
+}
+
+section.recipes-per-three .recipe__title h5 {
+  height: 50px;
+}
+
+section.recipes-per-three .card {
+  border: none;
+  border-radius: 0;
+}
+
+section.recipes-per-three .card .card-body {
+  margin-top: 20px;
+}
+
+section.popular-recipes {
+  margin-top: 90px;
+}
+
+section.popular-recipes .recipe .lazy-wrapper {
+  height: 200px;
+}
+
+section.popular-recipes .recipe .lazy-wrapper img {
+  height: 100% !important;
+}
+
+section.popular-recipes .recipe__title-wrapper {
+  margin-top: 10px;
+}
+
+section.popular-recipes .recipe__title-wrapper p {
+  font-size: 15px;
 }
 
 @media (max-width: 922px) {
@@ -13752,6 +13810,12 @@ span.border-bottom-yellow {
   border: 1px solid black;
   background-color: white;
   color: black;
+}
+
+.btn-load-more {
+  font-size: 15px;
+  font-weight: 700;
+  padding: 10px 30px;
 }
 
 .carousel.carousel-index .carousel-inner {
@@ -14794,27 +14858,33 @@ nav.navbar .navbar-nav .dropdown-menu.show .dropdown-item:hover {
   }
 }
 
-.blog-list-1 .title {
+.blog-list-per-categories-1 h1 {
+  font-family: 'Merriweather';
+}
+
+.blog-list-per-categories-1 h2.title {
   font-family: Merriweather, serif;
   font-size: 26px;
   margin-bottom: 40px;
 }
 
-.blog-list-1 section.recipes_per_three {
-  margin: 100px 0;
+.blog-list-per-categories-1 section.recipes-per-three {
+  border-bottom: 1px solid #dddbdb;
+  padding-bottom: 100px;
 }
 
-.blog-list-1 section.recipes_per_three .recipe__title h5 {
-  height: 50px;
+.blog-list-per-categories-1 section.recipes-per-three .recipe {
+  margin-bottom: 50px !important;
 }
 
-.blog-list-1 section.recipes_per_three .card {
-  border: none;
-  border-radius: 0;
+.blog-list-per-categories-1 section.recipes-per-three .recipe__description {
+  -webkit-line-clamp: 2 !important;
 }
 
-.blog-list-1 section.recipes_per_three .card .card-body {
-  margin-top: 20px;
+.blog-list-1 h2.title {
+  font-family: Merriweather, serif;
+  font-size: 26px;
+  margin-bottom: 40px;
 }
 
 .blog-list-1 section.books .carousel-inner, .blog-list-1 section.books .carousel-item {
@@ -14982,26 +15052,6 @@ nav.navbar .navbar-nav .dropdown-menu.show .dropdown-item:hover {
 .blog-list-1 section.new-recipes .videos iframe {
   width: 100%;
   margin-bottom: 30px;
-}
-
-.blog-list-1 section.popular-recipes {
-  margin-top: 90px;
-}
-
-.blog-list-1 section.popular-recipes .recipe .lazy-wrapper {
-  height: 200px;
-}
-
-.blog-list-1 section.popular-recipes .recipe .lazy-wrapper img {
-  height: 100% !important;
-}
-
-.blog-list-1 section.popular-recipes .recipe__title-wrapper {
-  margin-top: 10px;
-}
-
-.blog-list-1 section.popular-recipes .recipe__title-wrapper p {
-  font-size: 15px;
 }
 
 @media (max-width: 1200px) {

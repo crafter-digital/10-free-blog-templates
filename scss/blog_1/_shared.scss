@@ -312,11 +312,70 @@
     }
   }
 
+  i {
+    color: white;
+    display: none;
+    font-size: 45px;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    top: 35%;
+    width: 100%;
+  }
+
   a {
-    &:hover {
+    &:hover {      
       .lazy-wrapper {
         filter: brightness(0.8) !important;
-        transition: 0.25s ease-out;
+        transition: 0.3s ease-out;
+      }
+
+      i {
+        display: block;
+        transition: 0.3s ease-out;
+      }
+    }
+  }
+}
+
+section.recipes-per-three {
+  margin: 100px 0;
+
+  .recipe {
+    &__title {
+      h5 {
+        height: 50px;
+      }
+    }
+  }
+
+  .card {
+    border: none;
+    border-radius: 0;
+
+    .card-body {
+      margin-top: 20px;
+    }
+  }
+}
+
+section.popular-recipes {
+  margin-top: 90px;
+
+  .recipe {
+    .lazy-wrapper {
+      height: 200px;
+
+      img {
+        height: 100% !important;
+      }
+    }
+
+    &__title-wrapper {
+      margin-top: 10px;
+
+      p {
+        font-size: 15px;
       }
     }
   }
